@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <router-link to="/">登录</router-link>
-    <router-link to="/Regisister">注册</router-link>
+   
     <router-view></router-view>
+
+   
   </div>
 </template>
 
 <script>
-
-
-
-
-
 
 export default {
   name: 'App',
@@ -21,6 +17,20 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+div{
+  router-link{
+    text-decoration: none !important;
+    
+  }
+}
 
+.router-link-active{
+   text-decoration: none;
+}
+div{
+  a{
+    margin-left: 10px;
+  }
+}
 </style>
