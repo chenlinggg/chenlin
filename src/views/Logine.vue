@@ -15,7 +15,7 @@
       </div>
         <input @click="submit" type="submit">
       </from>
-      
+      <p>我修改了一个登录框</p>
       </div>
       
     </div>
