@@ -8,6 +8,7 @@
       <p>输入的数字的数据扩大2倍的结果：{{ sum}}</p>
       <button @onclick="num++">点击改变</button>
       <p>{{ num }}</p>
+      <p>我要上传一个我的源代码到git上</p>
     </div>
     
   </template>
